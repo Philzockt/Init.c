@@ -1,5 +1,4 @@
 
-#include "$CurrentDir:\mpmissions\dayzOffline.chernarusplus\tools\CreateLandObject.c"
 void main()
 {
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
@@ -34,68 +33,7 @@ void main()
 		
 		GetGame().GetWorld().SetDate(year, month, day, hour, minute);
 	}
-	custom();
-}
 
-void custom()
-{
-
-	Object obj;
- 
-   
-	// Mainland Side
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1955", "90 0 0", obj); 
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1935", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1915", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1895", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1895", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1875", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1855", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1835", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1815", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1795", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1775", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1755", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1735", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1715", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1695", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1675", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1655", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1635", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1615", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1595", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1575", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1555", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1535", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1515", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1495", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1475", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1455", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1435", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1415", "90 0 0", obj);
-    CreateLandObject("Dam_Concrete_20_Floodgate", "2658 -6.55 1395", "90 0 0", obj); 
-	// Island Side
-    
-	// Water Pumps, FuelStation, Radios
-    CreateLandObject("Land_Misc_Well_Pump_Yellow", "2788.34 26.6838 1224.95", "0 0 0", obj); // Prison
-	CreateLandObject("Land_Misc_Well_Pump_Yellow", "4630.9 339.713 9592.25", "0 0 0", obj);  // NWA
-	CreateLandObject("Land_Misc_Well_Pump_Yellow", "10208.8 17 2034.71", "-15 0 0", obj);    // Phils Base
-	
-	// Alte base
-	
-	//CreateLandObject("Land_Misc_Well_Pump_Yellow", "3826.53 191 13004.3", "180 0 0", obj);
-	//CreateLandObject("Land_FuelStation_Feed", "3822.1 191.3 13003.1", "30 0 0", obj);
-
-	// Guardhouse Prison Island
-    CreateLandObject("Land_Sawmill_Illuminanttower", "2653.55 12.0782 1947.52", "0 0 0", obj);
-    CreateLandObject("Land_Mil_Guardhouse2", "2665.25 3.68976 1953.45", "0 0 0", obj);
-    CreateLandObject("Land_Radio_PanelPAS", "2668.19 2.57883 1950.76", "180 0 0", obj);
-    CreateLandObject("Land_Radio_PanelBig", "2669.57 2.46004 1955.67", "-180 0 0", obj);
-    CreateLandObject("Land_Mil_Tower_Small", "2668.24 9.78019 1952.16", "-180 0 0", obj);
-    CreateLandObject("Land_BusStation_building", "2671.62 2.80564 1951.65", "-90 0 0", obj);
-    CreateLandObject("Land_Ladder", "2672.23 2.19335 1954.74", "-90 0 0", obj);
-    CreateLandObject("Land_Wreck_V3S", "2668.4 4.40857 1960.24", "180 -11 0", obj);
-    CreateLandObject("Land_Guardhouse", "2656.39 3.44714 1949.95", "90 0 0", obj);
 }		
 
 class CustomMission: MissionServer
@@ -119,9 +57,9 @@ class CustomMission: MissionServer
 	/// Admin tool einbinden
 	bool DebugMonitor_active = false;
   	bool freecam_active = false;
-	bool verify_admins = true; // true=verify presence of BI UID in admin list
-	string cmd_prefix = "/"; // Must be special character
-	ref TStringArray admins = {"6JmH28D6QXyU3l5/SYgpEkApfcp73KnGKY8+Yv+7xhg=","q/+SlchEwOUgddlvxo5CkVkw8uqtsLzhR91e8K25j9g="}; // Add your BI UID or SteamID
+	bool verify_admins = false; // true=abfrage ob nur eingestellte Personen die Adminbefehle verwenden können. false bedeute jeder der sich als admin einlogt kann "cheaten" 
+	string cmd_prefix = "/"; 
+	ref TStringArray admins = {"6JmH28D6QXyU3l5/SYgpEkApfcp73KnGKY8+Yv+7xhg=","q/+SlchEwOUgddlvxo5CkVkw8uqtsLzhR91e8K25j9g="}; // Add your BI UID (Bohemia Interactive ID) ich hab unsere drin gelassen damit man sieht wie es aussehen muss. die ids mit "" eintragen und bei mehreren admin mit , trennen.
 
 	bool IsPlayerAnAdmin(PlayerBase player) {
 		bool found = false;
@@ -196,7 +134,7 @@ class CustomMission: MissionServer
 			}
 
 
-			case "tp": {
+			case "tp": {	// z.b /tp nwa  -> portet dich.  /tp nwa SPIELERNAMEN  -> Portet den genannten Spieler.
 				if(count < 2) 
 				{ SendMessageToPlayer(player, "/tp city Spieler"); return; }
 				vector poi;
@@ -238,44 +176,6 @@ class CustomMission: MissionServer
 						poi[1] = GetGame().SurfaceY(poi[0], poi[2]);
 						player.SetPosition(poi);
 						SendMessageToPlayer(player, "[Teleport] You've been teleported to NWA");
-						}
-						break;
-					}
-
-					case "home": {
-						if (count > 2) { 
-						poi = "10205.7 16.84 2027.06";
-						temp_player = GetPlayer(tokens[2]); 
-						if (temp_player == NULL) {
-						SendMessageToPlayer(player, "[Teleport] Can't find player called: '"+tokens[2]+"'"); return;	 
-						} else {
-						temp_player.SetPosition(poi);
-						SendMessageToPlayer(temp_player, "[Teleport] You've been teleported to Phils Base by admin " + player.GetIdentity().GetName());
-						}
-						} else {
-						poi = "10205.7 16.84 2027.06";
-						player.SetPosition(poi);
-						SendMessageToPlayer(player, "[Teleport] You've been teleported to Phils Base");
-						}
-						break;
-					}
-
-					case "home2": {
-						if (count > 2) { 
-						poi = "12336.55 0 14277.98";
-						temp_player = GetPlayer(tokens[2]); 
-						if (temp_player == NULL) {
-						SendMessageToPlayer(player, "[Teleport] Can't find player called: '"+tokens[2]+"'"); return;	 
-						} else {
-						poi[1] = GetGame().SurfaceY(poi[0], poi[2]);	
-						temp_player.SetPosition(poi);
-						SendMessageToPlayer(temp_player, "[Teleport] You've been teleported to our Home by admin " + player.GetIdentity().GetName());
-						}
-						} else {
-						poi = "12336.55 0 14277.98";
-						poi[1] = GetGame().SurfaceY(poi[0], poi[2]);
-						player.SetPosition(poi);
-						SendMessageToPlayer(player, "[Teleport] You've been teleported to our Home");
 						}
 						break;
 					}
@@ -578,29 +478,7 @@ class CustomMission: MissionServer
 				SendMessageToPlayer(player, "[Servertime] You have set the servertime to daytime");
 				break;
 			}
-		
-			/*case "rain": {
-				if(count != 2) { SendMessageToPlayer(player, "/rain [value 0-100]"); return; }
-				float rain = tokens[1].ToFloat() / 100;
-				GetGame().GetWeather().GetRain().Set(rain, 0, 600);
-				SendMessageToPlayer(player, "[Weather] You have set Rain to " + tokens[1] + "% ["+rain+"]");
-				break;
-			}
-			case "fog": {
-				if(count != 2) { SendMessageToPlayer(player, "/rain [value 0-100]"); return; }
-				float fog = tokens[1].ToFloat() / 100;
-				GetGame().GetWeather().GetFog().Set(fog, 0, 600);
-				SendMessageToPlayer(player, "[Weather] You have set Fog to " + tokens[1] + "% ["+fog+"]");
-				break;
-			}
-			case "overcast": {
-				if(count != 2) { SendMessageToPlayer(player, "/rain [value 0-100]"); return; }
-				float overcast = tokens[1].ToFloat() / 100;
-				GetGame().GetWeather().GetOvercast().Set(overcast, 0, 600);
-				SendMessageToPlayer(player, "[Weather] You have set Overcast to " + tokens[1] + "% ["+overcast+"]");
-				break;
-			}
-			*/
+
 			case "kill": {
 				if(count == 2) {
 					temp_player = GetPlayer(tokens[1]);
@@ -651,7 +529,7 @@ class CustomMission: MissionServer
 				break;
 			}
 
-			case "phil": {
+			case "gear": {
 				player.RemoveAllItems();
 				
 				player.GetInventory().CreateInInventory("TTSKOPants");
@@ -718,18 +596,18 @@ class CustomMission: MissionServer
 				vector posModifier = Vector(-(3 * Math.Sin(playerAngle)), 0, 3 * Math.Cos(playerAngle));
 				v = Car.Cast(GetGame().CreateObject( "OffroadHatchback", player.GetPosition() + posModifier));
 				
-                v.GetInventory().CreateAttachment("SparkPlug");
-                v.GetInventory().CreateAttachment("EngineBelt");
-				v.GetInventory().CreateAttachment("CarRadiator");
-                v.GetInventory().CreateAttachment("CarBattery");
-                v.GetInventory().CreateAttachment("HatchbackHood");
-                v.GetInventory().CreateAttachment("HatchbackTrunk");
-                v.GetInventory().CreateAttachment("HatchbackDoors_CoDriver");
-                v.GetInventory().CreateAttachment("HatchbackWheel");
-                v.GetInventory().CreateAttachment("HatchbackWheel");
-                v.GetInventory().CreateAttachment("HatchbackWheel");
-                v.GetInventory().CreateAttachment("HatchbackWheel");
-                v.GetInventory().CreateAttachment("HatchbackWheel"); // spare
+				v.GetInventory().CreateAttachment("SparkPlug");
+				v.GetInventory().CreateAttachment("EngineBelt");
+						v.GetInventory().CreateAttachment("CarRadiator");
+				v.GetInventory().CreateAttachment("CarBattery");
+				v.GetInventory().CreateAttachment("HatchbackHood");
+				v.GetInventory().CreateAttachment("HatchbackTrunk");
+				v.GetInventory().CreateAttachment("HatchbackDoors_CoDriver");
+				v.GetInventory().CreateAttachment("HatchbackWheel");
+				v.GetInventory().CreateAttachment("HatchbackWheel");
+				v.GetInventory().CreateAttachment("HatchbackWheel");
+				v.GetInventory().CreateAttachment("HatchbackWheel");
+				v.GetInventory().CreateAttachment("HatchbackWheel"); // spare
 				break;
 			}
 
@@ -759,7 +637,7 @@ class CustomMission: MissionServer
 				break;
 			}
 				
-			case "help": {
+			case "base": {
 
 				SendMessageToPlayer(player, "Building shit");
 		
@@ -798,7 +676,7 @@ class CustomMission: MissionServer
 				break;
 			}
 
-			case "save": {
+			case "wire": {
 
 				SendMessageToPlayer(player, "Building shit");
 				for ( int ic = 0; ic<20; ic++)
@@ -806,30 +684,6 @@ class CustomMission: MissionServer
 			
 				break;
 			}	
-
-			case "info": {
-
-				g = EntityAI.Cast(GetGame().CreateObject( "Seachest", player.GetPosition() + posModifier));
-				g.GetInventory().CreateInInventory("GardenLime");
-				g.GetInventory().CreateInInventory("GardenLime");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("CannabisSeedsPack");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");
-				g.GetInventory().CreateInInventory("PumpkinSeeds");				
-				g.GetInventory().CreateInInventory("FarmingHoe");
-
-			
-				break;
-						
-			}
 			
 			case "test": {
 
